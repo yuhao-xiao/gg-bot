@@ -1,0 +1,30 @@
+[project]
+name = "geogg"
+version = "0.1.0"
+description = "GeoGuessr region-guessing AI: geocell classification on frozen DINOv2 embeddings"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "transformers>=4.44",
+    "pillow",
+    "numpy",
+    "huggingface_hub",
+    "datasets",
+    "safetensors",
+    "s2sphere",
+    "pandas",
+    "pyarrow",
+    "matplotlib",
+    "tqdm",
+    "pyyaml",
+    "tensorboard",
+]
+
+# NOTE: torch + torchvision are installed separately from the CUDA wheel index
+# (they are not on PyPI with CUDA support). See README.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["geogg*"]

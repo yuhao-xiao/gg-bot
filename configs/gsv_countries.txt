@@ -1,0 +1,128 @@
+# Countries with official Google Street View (car/trekker) coverage — the set
+# GeoGuessr's official maps draw from. ISO 3166-1 alpha-2 codes, one per line.
+# '#' starts a comment. EDIT THIS FILE to correct the keep-set, then re-run
+# scripts/filter_report.py. This is a best-effort seed (~105 countries) and
+# needs verification — authoritative online lists were blocked/unreliable.
+#
+# NOTE: OSV-5M is Mapillary imagery, so it contains many countries WITHOUT
+# official Google coverage (China, Pakistan, most of Africa, etc.). Those are
+# intentionally excluded here so the grid matches real GeoGuessr scope.
+
+# --- Americas ---
+US   # United States
+GL   # Greenland (Denmark) - has official GSV in towns
+PR   # Puerto Rico (US)
+CA   # Canada
+MX   # Mexico
+GT   # Guatemala
+CR   # Costa Rica
+PA   # Panama
+DO   # Dominican Republic (added 2025)
+CO   # Colombia
+EC   # Ecuador
+PE   # Peru
+BO   # Bolivia
+CL   # Chile
+AR   # Argentina
+UY   # Uruguay
+BR   # Brazil
+
+# --- Europe ---
+AL   # Albania
+AD   # Andorra
+AT   # Austria
+BE   # Belgium
+BA   # Bosnia and Herzegovina (added 2025)
+BG   # Bulgaria
+HR   # Croatia
+CY   # Cyprus (added 2025)
+CZ   # Czechia
+DK   # Denmark
+EE   # Estonia
+FO   # Faroe Islands
+FI   # Finland
+FR   # France
+DE   # Germany (added 2023)
+GI   # Gibraltar
+GR   # Greece
+HU   # Hungary
+IS   # Iceland
+IE   # Ireland
+IM   # Isle of Man
+IT   # Italy
+JE   # Jersey
+GG   # Guernsey
+LV   # Latvia
+LI   # Liechtenstein
+LT   # Lithuania
+LU   # Luxembourg
+MT   # Malta
+MC   # Monaco
+ME   # Montenegro (added 2025)
+NL   # Netherlands
+MK   # North Macedonia (added 2025)
+NO   # Norway
+PL   # Poland
+PT   # Portugal
+RO   # Romania
+RU   # Russia
+RS   # Serbia (added 2025)
+SM   # San Marino
+SK   # Slovakia
+SI   # Slovenia
+ES   # Spain
+SE   # Sweden
+CH   # Switzerland
+UA   # Ukraine
+GB   # United Kingdom
+
+# --- Asia / Middle East ---
+BD   # Bangladesh
+BT   # Bhutan
+KH   # Cambodia
+HK   # Hong Kong
+IN   # India
+ID   # Indonesia
+IL   # Israel
+JP   # Japan
+JO   # Jordan
+KZ   # Kazakhstan
+KW   # Kuwait (added 2025)
+KG   # Kyrgyzstan
+LA   # Laos
+LB   # Lebanon
+MO   # Macau
+MY   # Malaysia
+MN   # Mongolia
+NP   # Nepal
+OM   # Oman
+PS   # Palestine
+PH   # Philippines
+QA   # Qatar
+SG   # Singapore
+KR   # South Korea
+LK   # Sri Lanka
+TW   # Taiwan
+TH   # Thailand
+TR   # Turkey
+AE   # United Arab Emirates
+VN   # Vietnam
+
+# --- Africa ---
+BW   # Botswana
+SZ   # Eswatini
+GH   # Ghana
+KE   # Kenya
+LS   # Lesotho
+NG   # Nigeria
+RW   # Rwanda
+SN   # Senegal
+ZA   # South Africa
+UG   # Uganda
+RE   # Réunion (France)
+
+# --- Oceania ---
+AU   # Australia
+NZ   # New Zealand
+AS   # American Samoa
+GU   # Guam

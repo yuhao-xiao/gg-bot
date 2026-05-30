@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual env
+.venv/
+venv/
+
+# Project data & artifacts (large, regenerable)
+datasets/
+artifacts/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+
+# Secrets / local config
+.env
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
